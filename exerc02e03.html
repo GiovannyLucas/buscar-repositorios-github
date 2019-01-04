@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <style>
+        img {
+            width: 70px;
+        }
+    </style>
+    <title>Exercício 02</title>
+</head>
+<body>
+    <legend>Seus repositórios no GitHub <img src="github.png"></legend><br>
+
+    <label for="user">Seu nome de usuário:</label>
+    <input type="text" name="user">
+    <button onclick="buscar()" class="btn btn-outline-dark">Visualizar</button>
+    <a href="exerc02e03.html" class="btn btn-outline-warning">Limpar</a>
+
+    <div class="img" style="margin-top: 20px"></div>
+    <div class="repos" style="margin-top: 20px"></div>
+
+    <script src="http://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="exerc02.js"></script>
+</body>
+</html>
